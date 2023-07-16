@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #fde8f4;
+}
+
+/* CORES
+#220114
+#811628
+#bd3038
+#ff7e57
+#f8b068 
+*/
+
+.calculadora{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 610px;
+    padding: 20px;
+    margin: 100px auto auto auto;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 600px;
+    
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 5px solid rgba(81,16,28, 1);
+}
+
+.screen-content{
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 3px;
+}
+
+.teclado{
+    display: flex;
+    justify-content: center;
+}
+
+.teclado-numerico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 330px;
+    padding: 10px 10px;
+}
+
+.teclado-operadores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 220px;
+    border-radius: 50px;
+    background-color: rgba(81,16,28,0.5);
+    padding: 10px 10px;
+}
+
+.tecla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #220114;
+    border-radius: 50px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.tecla.funcoes{
+    width: 100px;
+    height: 100px;
+}
+
+.tecla.numerico{
+    width: 100px;
+    height: 100px;
+}
+
+.tecla.operadores{
+    width: 100px;
+    height: 100px;
+}
+
+.tecla.enter{
+    width: 200px;
+    height: 100px;
+}
+
+.tecla:hover{
+    color: #220114;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+    filter: brightness(1.5);
+    background-color: #ff7e57;
+}
