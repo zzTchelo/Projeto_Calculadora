@@ -29,7 +29,9 @@ body{
 .screen{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+    overflow-x: hidden;
+
     height: 100px;
     width: 600px;
     
