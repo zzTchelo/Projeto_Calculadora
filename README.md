@@ -12,4 +12,4 @@ This is a simple calculator implementation using HTML, CSS, and JavaScript. The 
 ## Usage
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/zzTchelo/Projeto_Calculadora
+   git clone https://github.com/zzTchelo/Projeto_Calculadora.git
